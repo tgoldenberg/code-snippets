@@ -1,3 +1,8 @@
+# create new user with sudo privileges - https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+adduser tom
+visudo
+# add line tom ALL=(ALL:ALL) ALL
+
 # install meteor
 curl https://install.meteor.com/ | sh
 
